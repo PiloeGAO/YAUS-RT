@@ -14,4 +14,5 @@ add_executable(YAUSRT
     include/hittable.h
     include/hittable_list.h
     include/common.h
+    include/camera.h
 )
