@@ -36,3 +36,6 @@ build/
 
 # Render Image
 *.ppm
+
+# VSCode files
+.vscode/
