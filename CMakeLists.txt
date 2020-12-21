@@ -9,4 +9,5 @@ include_directories(include)
 add_executable(YAUSRT
     src/main.cc
     include/vec3.h
+    include/color.h
 )
