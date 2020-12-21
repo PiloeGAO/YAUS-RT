@@ -12,4 +12,6 @@ add_executable(YAUSRT
     include/color.h
     include/ray.h
     include/hittable.h
+    include/hittable_list.h
+    include/common.h
 )
