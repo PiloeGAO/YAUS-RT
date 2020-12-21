@@ -13,6 +13,7 @@ add_executable(YAUSRT
     include/ray.h
     include/hittable.h
     include/hittable_list.h
+    include/sphere.h
     include/common.h
     include/camera.h
 )
