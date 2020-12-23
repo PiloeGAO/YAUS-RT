@@ -29,12 +29,12 @@ public:
 
         scattered = ray(rec.p, scatter_direction);
         attenuation = albedo;
-        return True;
+        return true;
     }
 
 public:
     color albedo;
-}
+};
 
 class metal : public material
 {
@@ -53,6 +53,6 @@ public:
 
 public:
     color albedo;
-}
+};
 
 #endif
