@@ -157,4 +157,9 @@ inline vec3 random_in_hemisphere(const vec3 &normal)
         return -in_unit_sphere;
 }
 
+inline vec3 reflect(const vec3 &v, const vec3 &n)
+{
+    return v - 2 * dot(v, n) * n;
+}
+
 #endif
