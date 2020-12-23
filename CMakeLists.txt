@@ -16,4 +16,5 @@ add_executable(YAUSRT
     include/sphere.h
     include/common.h
     include/camera.h
+    include/material.h
 )
